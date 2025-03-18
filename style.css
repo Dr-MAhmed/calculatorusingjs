@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body, html{
+    width: 100%;
+    height: 100vh;
+}
+
+.container{
+    width: 400px;
+    height: 200px;
+    background-color: rgb(192, 186, 186);
+    margin: 20px auto;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+.calculator{
+    /* background-color: black; */
+    height: fit-content;
+    border-radius: 8px;
+    padding: 12px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+.row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2px;
+}
+button{
+    width: 40px;
+    padding: 2px;
+    border-radius: 2px;
+    cursor: pointer;
+}
+.btn{
+    display: flex;
+    justify-content: flex-start;
+}
+.equalsTo{
+    position: relative;
+    top: 112px;
+    height: 49px;
+    right: 40px;
+}
+#calculatorVal{
+    height: 20px;
+    border-radius: 3px;
+    border: none;
+    outline: none;
+}
